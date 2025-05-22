@@ -1,4 +1,35 @@
-//Write your code here
+const attendee = {
+  attendeeId: "T001",
+  name: "Alice Smith",
+  event: "JavaScript Conference",
+  ticketType: "VIP",
+  ticketPrice: 150.00
+};
+function logAttendeeName(attendee) {
+  console.log(attendee.name);
+}
+const attendee = {
+  attendeeId: "T001",
+  name: "Alice Smith",
+  event: "JavaScript Conference",
+  ticketType: "VIP",
+  ticketPrice: 150.00
+};
+function logTicketPrice(attendee) {
+  function updateTicketType(attendee, newticketType) {
+    attendee.ticketType = newType;
+  }
+  function removeEventProperty(attendee) {
+    delete attendee.event;
+  }
+  function addCheckedInProperty(attendee) {
+    attendee.checkedIn = true;
+  }
+  
+
+  
+
+
 
 
 
